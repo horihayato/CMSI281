@@ -59,6 +59,7 @@ public class CircularLinkedList extends AbstractLinkedList implements CircularCo
 
         public CircularLinkedListIterator() {
             current = first;
+            previous = null;
         }
 
         public boolean hasNext() {
