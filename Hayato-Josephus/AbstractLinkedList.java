@@ -1,8 +1,12 @@
 public abstract class AbstractLinkedList implements Collectible {
+    Node head;
+    Node tail;
     Node first;
     int n;
 
     public AbstractLinkedList() {
+      head = null;
+      tail = null;
       first = null;
       n = 0;
     }
